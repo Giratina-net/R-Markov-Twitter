@@ -1,11 +1,11 @@
 import schedule
 from time import sleep
-import tweet
+import gen
 
-tweet.run()
+gen.run()
 
 def task():
-    tweet.run()
+    gen.run()
 
 schedule.every(30).minutes.do(task)
 
