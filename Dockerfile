@@ -4,4 +4,3 @@ WORKDIR /app
 COPY . /app
 RUN pip3 install -r requirements.txt
 CMD ["python3","run.py"]
-LABEL org.opencontainers.image.source=https://github.com/Giratina-net/R-Markov-Twitter
